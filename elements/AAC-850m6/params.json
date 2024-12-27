@@ -1,0 +1,34 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "RG | Reverse",
+    "fields": {
+        "AAD": {
+            "caption": "RepeatingGroups ID",
+            "default_val": "rg1, rg2",
+            "editor": "DynamicValue",
+            "name": "rgs",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "icon": "ion-ios-refresh-empty",
+    "platform_type": "web",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAE": {
+            "caption": "error",
+            "initialization_code": {
+                "fn": "function(instance, properties) {\n    \n}"
+            },
+            "name": "error",
+            "value": "text"
+        }
+    }
+}
